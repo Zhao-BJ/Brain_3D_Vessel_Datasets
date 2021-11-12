@@ -8,9 +8,9 @@ def get_argument():
     parser = argparse.ArgumentParser()
 
     # Data settings
-    parser.add_argument('--tre_file_path', default='/data2/aiteam_cta/ZhaoBJ/Datasets/Brain_MR_Angiography/TubeTK/original/Vessel_annotation_file')
-    parser.add_argument('--nii_save_path', default='/data2/aiteam_cta/ZhaoBJ/Datasets/Brain_MR_Angiography/TubeTK/original/Vessel')
-    parser.add_argument('--org_MRA_path', default='/data2/aiteam_cta/ZhaoBJ/Datasets/Brain_MR_Angiography/TubeTK/original/MRA')
+    parser.add_argument('--tre_file_path', default='~/Datasets/Brain_MR_Angiography/TubeTK/original/Vessel_annotation_file')
+    parser.add_argument('--nii_save_path', default='~/Datasets/Brain_MR_Angiography/TubeTK/original/Vessel')
+    parser.add_argument('--org_MRA_path', default='~/Datasets/Brain_MR_Angiography/TubeTK/original/MRA')
 
     parser.add_argument('--img_depth', default=128, help='The original database voxel size')
     parser.add_argument('--img_height', default=448, help='The original database voxel size')
