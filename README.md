@@ -12,7 +12,7 @@
 
 作者提供了一个设计的MR数据库，包含100名健康受试者的大脑图像，其中每十年为一组，每组扫描20名患者（18-29、30-39、40-49、50-59和60+），每组均等按性别划分，并排除任何糖尿病、高血压、头部外伤、精神疾病或其他可能影响大脑的症状或病史的受试者。
 
-图像是在标准化协议下通过Siemens Allegra head-only 3T MR system获取的。T1和T2图像以$ 1\times1\times1 \quad mm^3 $，体积大小为$ 176 \times 256 \times 176 \quad voxel $。MRA图像以$ 0.5 \times 0.5 \times 0.8 \quad mm^3 $获取，体积大小为$ 448 \times 448 \times 128 \quad voxel $。以及使用6个方向和体素大小为$ 2 \times 2 \times 2 \quad mm^3 $的扩散张量成像（DTI）。除了年龄和性别外，还记录了惯用手和种族。
+图像是在标准化协议下通过Siemens Allegra head-only 3T MR system获取的。T1和T2图像以$ 1\times1\times1 \quad mm^3 $，体积大小为$ 176 \times 256 \times 176 \quad voxel $ 。MRA图像以 $ 0.5 \times 0.5 \times 0.8 \quad mm^3 $ 获取，体积大小为 $ 448 \times 448 \times 128 \quad voxel $。以及使用6个方向和体素大小为$ 2 \times 2 \times 2 \quad mm^3 $的扩散张量成像（DTI）。除了年龄和性别外，还记录了惯用手和种族。
 
 ##### 数据地址
 
